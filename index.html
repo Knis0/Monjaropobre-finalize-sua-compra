@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalize Sua Compra - Monjaro Pobre</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .header-section {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 30px 20px 10px;
+        }
+        .checkout-section {
+            width: 100%;
+            background: white;
+            padding: 0;
+            margin: 0;
+        }
+        .testimonials-section {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .urgency-banner {
+            background: #fff8e1;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+        .testimonial-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            position: relative;
+        }
+        .guarantee-badge {
+            background: #e8f5e9;
+            border-radius: 50px;
+            padding: 10px 20px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Seção 1: Cabeçalho com Urgência -->
+    <div class="header-section">
+        <div class="urgency-banner">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="#ff6f00">
+                <path d="M11 15h2v2h-2zm0-8h2v6h-2zm.99-5C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/>
+            </svg>
+            <div>
+                <strong>ATENÇÃO:</strong> Sua oferta expira em <span id="countdown">30:00</span> minutos! Complete seu pedido agora para garantir seu desconto.
+            </div>
+        </div>
+
+        <h1 style="color: #2e8b57; text-align: center; margin-bottom: 10px;">🎉 Parabéns pela escolha inteligente!</h1>
+        <p style="text-align: center; color: #555;">Você está a apenas 1 passo de acessar o método natural que está transformando vidas</p>
+    </div>
+
+    <!-- Seção 2: Checkout em Tela Cheia -->
+    <div class="checkout-section">
+        <iframe src="https://pay.kuenha.com/cd13a1bb-9461-4c10-bcbc-17842193254a" 
+                style="width: 100%; height: 800px; border: none; display: block;"></iframe>
+    </div>
+
+    <!-- Seção 3: Depoimentos -->
+    <div class="testimonials-section">
+        <div style="text-align: center;">
+            <div class="guarantee-badge">
+               
+        </div>
+
+        <h2 style="text-align: center; color: #2e8b57; margin: 40px 0 30px; font-size: 28px;">
+            <svg style="width: 30px; height: 30px; vertical-align: middle; fill: #1877F2;" viewBox="0 0 24 24">
+                <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"/>
+            </svg>
+            O QUE NOSSOS CLIENTES ESTÃO COMENTANDO
+        </h2>
+
+        <div class="testimonial-grid">
+            <!-- Comentário 1 -->
+            <div class="testimonial-card">
+                <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                    <img src="https://i.ibb.co/zVx6RZ4N/1752996848025.jpg" alt="Cliente" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid #2e8b57;">
+                    <div style="margin-left: 12px;">
+                        <div style="font-weight: bold; color: #385898;">Maria Fernanda S.</div>
+                        <div style="font-size: 12px; color: #65676B;">2 semanas atrás · <span style="color: #2e8b57;">✓ Compra verificada</span></div>
+                    </div>
+                </div>
+                <p style="color: #333; line-height: 1.5; margin-bottom: 15px;">
+                    "Nunca imaginei que poderia perder 7kg em apenas 3 semanas sem remédios caros! O chá de gengibre com abacaxi do ebook foi revolucionário pra mim. Minha autoestima está lá em cima!"
+                </p>
+                <div style="position: absolute; top: 15px; right: 15px; color: #ff6b00; font-weight: bold;">⭐ 5/5</div>
+            </div>
+
+            <!-- Comentário 2 -->
+            <div class="testimonial-card">
+                <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                    <img src="https://i.ibb.co/mVLh9fn7/1752996525283.jpg" alt="Cliente" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid #2e8b57;">
+                    <div style="margin-left: 12px;">
+                        <div style="font-weight: bold; color: #385898;">Carlos Alberto R.</div>
+                        <div style="font-size: 12px; color: #65676B;">1 mês atrás · <span style="color: #2e8b57;">✓ Compra verificada</span></div>
+                    </div>
+                </div>
+                <p style="color: #333; line-height: 1.5; margin-bottom: 15px;">
+                    "Minha glicose normalizou e ainda economizei mais de 15.000kzs que gastava mensalmente com medicamentos! O método da aveia com linhaça mudou minha vida."
+                </p>
+                <div style="position: absolute; top: 15px; right: 15px; color: #ff6b00; font-weight: bold;">⭐ 5/5</div>
+            </div>
+
+            <!-- Comentário 3 -->
+            <div class="testimonial-card">
+                <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                    <img src="https://i.ibb.co/rfytGJyX/1752996532943.jpg" alt="Cliente" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid #2e8b57;">
+                    <div style="margin-left: 12px;">
+                        <div style="font-weight: bold; color: #385898;">Ana Paula L.</div>
+                        <div style="font-size: 12px; color: #65676B;">3 dias atrás · <span style="color: #2e8b57;">✓ Compra verificada</span></div>
+                    </div>
+                </div>
+                <p style="color: #333; line-height: 1.5; margin-bottom: 15px;">
+                    "Comprei sem acreditar muito, mas em 10 dias já perdi 3cm de barriga! As receitas são tão fáceis que até meu marido começou a fazer."
+                </p>
+                <div style="position: absolute; top: 15px; right: 15px; color: #ff6b00; font-weight: bold;">⭐ 5/5</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Countdown Script -->
+    <script>
+        let timeLeft = 30 * 60; // 30 minutes in seconds
+        
+        function updateCountdown() {
+            const minutes = Math.floor(timeLeft / 60);
+            let seconds = timeLeft % 60;
+            seconds = seconds < 10 ? '0' + seconds : seconds;
+            document.getElementById('countdown').innerHTML = `${minutes}:${seconds}`;
+            
+            if (timeLeft > 0) {
+                timeLeft--;
+                setTimeout(updateCountdown, 1000);
+            } else {
+                document.getElementById('countdown').innerHTML = "00:00";
+            }
+        }
+        
+        updateCountdown();
+    </script>
+</body>
+</html>
